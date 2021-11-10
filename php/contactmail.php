@@ -1,13 +1,13 @@
 <?php
 if(!$_POST) exit;
 
-    $to 	  = 'abc@somedomain.com'; #Replace your email id...
+    $to 	  = 'elimullan21@gmail.com'; #Replace your email id...
 	$name	  = $_POST['txtname'];
 	$email    = $_POST['txtemail'];
 	$subject  = $_POST['txtsubject'];
     $comment  = $_POST['txtmessage'];
         
-	if(get_magic_quotes_gpc()) { $comment = stripslashes($comment); }
+	
 
 	 $msg  = "You have been contacted by $name with regards to $subject.\r\n\n";
 	 $msg .= "$comment\r\n\n";

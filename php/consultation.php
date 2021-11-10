@@ -1,7 +1,7 @@
 <?php
 if(!$_POST) exit;
 
-    $to 	  = 'abc@somedomain.com'; #Replace your email id...
+    $to 	  = 'elimullan21@gmail.com'; #Replace your email id...
 	$name	  = $_POST['name'];
 	$emailid    = $_POST['emailid'];
     $phone  = $_POST['phone'];
@@ -11,7 +11,7 @@ if(!$_POST) exit;
         
 	$subject = $_POST['consult_submit'];
 		
-	if(get_magic_quotes_gpc()) { $message = stripslashes($message); }
+	
 
 	 $msg  = 'Name: '.$name.'\r\n\n';
 	 $msg .= 'Email: '.$emailid.'\r\n\n';

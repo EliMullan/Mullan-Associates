@@ -1,7 +1,7 @@
 <?php
 if(!$_POST) exit;
 
-    $to 	  = 'abc@somedomain.com'; #Replace your email id...
+    $to 	  = 'elimullan21@gmail.com'; #Replace your email id...
 	$hf_first_name	  = $_POST['hf_first_name'];
 	$hf_last_name    = $_POST['hf_last_name'];
     $hf_consult_incident  = $_POST['hf_consult_incident'];
@@ -9,7 +9,7 @@ if(!$_POST) exit;
         
 	$subject = 'Help Form!';
 		
-	if(get_magic_quotes_gpc()) { $message = stripslashes($message); }
+	
 
 	 $msg  = 'First Name: '.$hf_first_name.'\r\n\n';
 	 $msg .= 'Last Name: '.$hf_last_name.'\r\n\n';
